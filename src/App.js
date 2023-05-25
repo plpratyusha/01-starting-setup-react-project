@@ -44,6 +44,16 @@ function App() {
         date={expenses[1].date}
       ></ExpenseItem>
       {/* Props: used to pass data to component using an attribute. */}
+      <ExpenseItem
+        title={expenses[2].title} 
+        amount={expenses[2].amount} 
+        date={expenses[2].date}
+      ></ExpenseItem>
+      <ExpenseItem
+        title={expenses[3].title} 
+        amount={expenses[3].amount} 
+        date={expenses[3].date}
+      ></ExpenseItem>
     </div>
   );
 }
